@@ -12,4 +12,4 @@ WORKDIR $APP_HOME
 COPY . ./
 
 # Install production dependencies.
-RUN lscpu
+RUN echo "1"
